@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — Together</title>
+    <meta name="description" content="How the Together app handles data: what stays on your device, what is sent to Firebase, and how to delete your data.">
+    <link rel="canonical" href="https://imsiberiandeveloper.github.io/privacy/en/">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Privacy Policy — Together">
+    <meta property="og:url" content="https://imsiberiandeveloper.github.io/privacy/en/">
+    <meta name="robots" content="index, follow">
+    <style>
+        :root {
+            --ink: #2c3e50;
+            --accent: #3498db;
+            --muted: #7f8c8d;
+            --bg: #f4f7f6;
+        }
+        * { box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.65;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg);
+            color: #333;
+        }
+        header {
+            background-color: var(--ink);
+            color: #fff;
+            padding: 2.5rem 1rem 2rem;
+            text-align: center;
+        }
+        header h1 { margin: 0 0 10px; font-size: 2rem; }
+        header p { margin: 0 0 1.25rem; font-size: 1.05rem; color: #bdc3c7; }
+        .nav {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .nav a {
+            display: inline-block;
+            padding: 8px 16px;
+            border-radius: 20px;
+            border: 1px solid rgba(255,255,255,0.35);
+            color: #fff;
+            font-size: 0.9rem;
+        }
+        .nav a:hover { background: rgba(255,255,255,0.12); text-decoration: none; }
+        .container {
+            max-width: 820px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .card {
+            background: #fff;
+            border-radius: 8px;
+            padding: 28px 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        h2 {
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 8px;
+            margin-top: 2.2rem;
+            color: var(--ink);
+            font-size: 1.35rem;
+        }
+        h3 { color: var(--ink); margin-top: 1.6rem; font-size: 1.1rem; }
+        h2:first-child { margin-top: 0; }
+        p, li { font-size: 1rem; }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        hr { border: 0; border-top: 1px solid #e1e8ed; margin: 2rem 0; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.2rem 0;
+            font-size: 0.93rem;
+        }
+        th, td {
+            border: 1px solid #e1e8ed;
+            padding: 9px 12px;
+            text-align: left;
+            vertical-align: top;
+        }
+        th { background: #f0f4f6; color: var(--ink); }
+        tbody tr:nth-child(even) { background: #fafcfc; }
+        blockquote {
+            margin: 1.2rem 0;
+            padding: 12px 16px;
+            border-left: 4px solid var(--accent);
+            background: #f7fafc;
+        }
+        .updated { color: var(--muted); font-size: 0.9rem; }
+        .meta { color: #566573; font-size: 0.95rem; margin: 0.3rem 0; }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: var(--ink);
+            color: #fff;
+            margin-top: 3rem;
+            font-size: 0.9rem;
+        }
+        footer a { color: #bdc3c7; }
+        @media (max-width: 600px) {
+            .card { padding: 20px 16px; }
+            header h1 { font-size: 1.6rem; }
+            table { font-size: 0.85rem; }
+            th, td { padding: 7px 8px; }
+        }
+        @media print {
+            body { background: #fff; }
+            header, footer, .nav { display: none; }
+            .card { box-shadow: none; padding: 0; }
+            .container { max-width: none; margin: 0; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Privacy Policy</h1>
+        <p>App “Together” · «Вместе»</p>
+        <nav class="nav">
+            <a href="https://imsiberiandeveloper.github.io/">← Back to home</a>
+            <a href="https://imsiberiandeveloper.github.io/privacy/">Русская версия</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <article class="card">
+            <p class="meta"><strong>Effective date:</strong> 13 November 2026</p>
+            <p class="meta"><strong>Version:</strong> 2.0 (replaces all previous versions)</p>
+            <p class="meta"><strong>App:</strong> "Together" / "Вместе", package <code>com.kostenko.life</code></p>
+            <p class="meta"><strong>Data controller:</strong> Konstantin Kostenko, correspondence address available on request</p>
+            <p class="meta"><strong>Privacy contact:</strong> <a href="mailto:newkostenko1@yandex.ru">newkostenko1@yandex.ru</a></p>
+            <hr />
+            <h2>1. The short version</h2>
+            <p>"Together" is a quit-smoking tracker. It works <strong>without registration and without an account</strong>: we do not know your name, phone number, e-mail address or precise location.</p>
+            <p>The app <strong>does use the internet</strong>. Some information is sent to our servers and to our providers' servers:</p>
+            <ul>
+            <li>an anonymous device identifier (a random UUID generated on your phone);</li>
+            <li>technical usage statistics (launches, time in the app, active days);</li>
+            <li>your nickname and messages — only if you use the public chat;</li>
+            <li>data required to display ads (through Yandex's advertising SDK).</li>
+            </ul>
+            <p>Your entries, settings, quit progress, the date and time of your last cigarette, notes and triggers <strong>are stored only on your device</strong> and are not sent to us.</p>
+            <p>If you never use the chat, we receive nothing that could identify you as a person.</p>
+            <hr />
+            <h2>2. What data we process</h2>
+            <h3>2.1 Data that stays on your device</h3>
+            <p>This data is stored in the app's private storage (DataStore, local Room databases, files in internal memory) and is <strong>not sent</strong> to our servers:</p>
+            <table>
+            <thead><tr><th>Data</th><th>Why</th></tr></thead>
+            <tbody>
+            <tr><td>Date and time of your last cigarette, quit date</td><td>Progress, statistics, health screens</td></tr>
+            <tr><td>Cigarettes per day, pack price, currency</td><td>Money-saved calculations</td></tr>
+            <tr><td>Nicotine and tar figures</td><td>Avoided-substances calculations</td></tr>
+            <tr><td>App settings, chosen goals, onboarding state</td><td>App behaviour</td></tr>
+            <tr><td>Notes, triggers, mood (local <code>notesDb</code>, <code>triggersDb</code>)</td><td>Personal diary</td></tr>
+            <tr><td>In-game currency (gold, keys), purchased sections</td><td>Game mechanics</td></tr>
+            <tr><td>Words saved in the "Wordly" game (<code>words.json</code>)</td><td>Personal collection</td></tr>
+            <tr><td>Chat nickname</td><td>Displayed in chat (see 2.2)</td></tr>
+            <tr><td>Random device identifier</td><td>Linking statistics and chat</td></tr>
+            </tbody></table>
+            <p>This data is permanently deleted when you clear the app's data or uninstall it. <strong>We cannot restore it</strong> — we keep no backup.</p>
+            <h3>2.2 Data sent to the cloud (Google Firebase Firestore)</h3>
+            <p>Data is sent only when the relevant feature is used.</p>
+            <table>
+            <thead><tr><th>What</th><th>Contents</th><th>When</th><th>Purpose</th></tr></thead>
+            <tbody>
+            <tr><td>Device statistics</td><td>random UUID, store of installation (Google Play / RuStore / dev), first launch date, last active date, launch count, list of active days, total time in app</td><td>On every app launch</td><td>Understanding how many people use the app and for how long, so we can improve it</td></tr>
+            <tr><td>Game statistics</td><td>anonymous play counters (not linked to a device)</td><td>On game start</td><td>Understanding which games are popular</td></tr>
+            <tr><td>Chat nickname</td><td>device UUID, the nickname you choose, update date</td><td>When you save a nickname</td><td>Enforcing nickname uniqueness, showing it in chat</td></tr>
+            <tr><td>Chat messages</td><td>chosen nickname, message text, send time, device UUID</td><td>When you send a message</td><td>Public chat</td></tr>
+            <tr><td>Gifts</td><td>recipient UUID, amount of gold, time</td><td>When you send a gift</td><td>Gift game mechanics</td></tr>
+            <tr><td>Bans</td><td>UUID, ban reason, "bad nickname" flag, time</td><td>When a user is banned</td><td>Chat moderation</td></tr>
+            </tbody></table>
+            <p class="meta"><strong>About the chat:</strong> anything you post in the public chat — your nickname and message text — is visible to other users and stored on the server. Do not post real names, addresses, phone numbers or other personal information there. We may remove messages and ban users who break the rules.</p>
+            <p class="meta"><strong>About the UUID:</strong> it is a random number generated on your phone. It is not linked to your Google account, phone number, IMEI or advertising ID. Reinstalling the app creates a new UUID and breaks the link to your previous statistics. We use it as a technical identifier, not to identify you.</p>
+            <h3>2.3 Data processed by third-party SDKs</h3>
+            <table>
+            <thead><tr><th>SDK / service</th><th>Provider</th><th>Data processed</th><th>Purpose</th></tr></thead>
+            <tbody>
+            <tr><td>Google Firebase (Firestore, Analytics)</td><td>Google LLC / Google Ireland Limited</td><td>Data from section 2.2; anonymised app usage events; technical data (device model, OS version, app version, language, country, installation ID)</td><td>Storing statistics and chat, usage analysis</td></tr>
+            <tr><td>Yandex Mobile Ads</td><td>Yandex LLC</td><td>Data needed to serve and measure ads: advertising ID, IP address, technical device parameters, impression and click events</td><td>Showing ads that fund development</td></tr>
+            <tr><td>Google Play / RuStore</td><td>Google / RuStore</td><td>Installation, updates, reviews, crashes — under the store's own terms</td><td>App distribution</td></tr>
+            </tbody></table>
+            <p>We do not control how these providers process data within their own services. Their policies: Google — https://policies.google.com/privacy, Yandex — https://yandex.com/legal/confidential/.</p>
+            <h3>2.4 What we do not collect</h3>
+            <p>We <strong>do not request or collect</strong>: your name, e-mail, phone number, postal address, precise (GPS) location, contacts, photos, files, camera, microphone, SMS, call history, the list of installed apps, or health data from other apps and medical devices.</p>
+            <p>The app requests only these permissions: internet access, showing notifications, vibration, restarting background checks after reboot, and access to the advertising identifier.</p>
+            <hr />
+            <h2>3. Why we process data and on what legal basis</h2>
+            <table>
+            <thead><tr><th>Purpose</th><th>Legal basis</th></tr></thead>
+            <tbody>
+            <tr><td>Core app features (on your device)</td><td>Performance of a contract (licence agreement)</td></tr>
+            <tr><td>Improving the app: anonymised usage statistics</td><td>Our legitimate interest</td></tr>
+            <tr><td>Public chat and moderation</td><td>Your consent (you choose to post) and our legitimate interest in moderation</td></tr>
+            <tr><td>Advertising</td><td>Your consent to processing by advertising SDKs</td></tr>
+            <tr><td>Responding to your requests</td><td>Your request and our legitimate interest</td></tr>
+            </tbody></table>
+            <p>You can opt out of personalised advertising in your device settings (Google → Ads → opt out of ad personalisation) and turn off notifications in the app or system settings.</p>
+            <hr />
+            <h2>4. Who we share data with</h2>
+            <ul>
+            <li><strong>Google LLC / Google Ireland Limited</strong> — storing data in Firebase (Firestore), analytics. Data may be processed on servers outside your country.</li>
+            <li><strong>Yandex LLC</strong> — advertising SDKs.</li>
+            <li><strong>Google Play, RuStore</strong> — app distribution.</li>
+            </ul>
+            <p>We do not sell your data and do not share it with third parties for their own purposes, except as required by law (a request from a competent authority).</p>
+            <hr />
+            <h2>5. Where and how long data is kept</h2>
+            <table>
+            <thead><tr><th>Data</th><th>Retention period</th></tr></thead>
+            <tbody>
+            <tr><td>Local data on your device</td><td>Until you uninstall the app or clear its data</td></tr>
+            <tr><td>Device statistics (UUID, launches, time)</td><td>Up to 24 months from the last activity, then deleted or anonymised</td></tr>
+            <tr><td>Chat nickname and messages</td><td>Until the message or nickname is deleted; messages may be stored for up to 12 months</td></tr>
+            <tr><td>Gifts</td><td>Until processed by the recipient, at most 30 days</td></tr>
+            <tr><td>Bans</td><td>Up to 12 months or until the ban is lifted</td></tr>
+            <tr><td>Advertising SDK data</td><td>Per the relevant provider's policy</td></tr>
+            </tbody></table>
+            <hr />
+            <h2>6. Security</h2>
+            <ul>
+            <li>Data between the app and Firebase/Yandex servers is transmitted over encrypted channels (HTTPS/TLS).</li>
+            <li>Data on Firebase servers is protected by Google's safeguards (encryption at rest, access control).</li>
+            <li>Local data is protected by the Android app sandbox and is not accessible to other apps.</li>
+            <li>Only the developer and authorised persons have access to administrative data.</li>
+            </ul>
+            <p>No method of transmission or storage is <strong>completely secure</strong>. We recommend not entering information you consider especially sensitive.</p>
+            <hr />
+            <h2>7. Your rights</h2>
+            <p>You have the right to:</p>
+            <ol>
+            <li><strong>Know</strong> what data about you is processed and obtain a copy.</li>
+            <li><strong>Request rectification, restriction or erasure</strong> of data that is incomplete, inaccurate or unlawfully processed.</li>
+            <li><strong>Withdraw consent</strong> — simply stop using the relevant features and uninstall the app.</li>
+            <li><strong>Object</strong> to processing for analytics purposes.</li>
+            <li><strong>Lodge a complaint</strong> with a supervisory authority — your national data protection authority, or Roskomnadzor if you are in Russia.</li>
+            </ol>
+            <h3>How to delete your data</h3>
+            <p class="meta"><strong>Local data:</strong> "Android Settings → Apps → Together → Storage → Clear data", or uninstall the app. This deletes your progress, notes, settings, in-game currency and UUID with no way to restore them.</p>
+            <p class="meta"><strong>Cloud data:</strong> e-mail <a href="mailto:newkostenko1@yandex.ru">newkostenko1@yandex.ru</a> with the subject "Data deletion". Include your chat nickname (if you have one), the approximate install date and the store you installed the app from — we will use these to locate your record. If you know your device identifier, include it: it speeds up the search. We will delete your statistics, nickname, messages, gifts and bans within <strong>30 calendar days</strong>, unless we have a legal obligation to keep them longer. If the information is not sufficient to identify you unambiguously, we will ask for clarification and delete everything we can reliably match to your request.</p>
+            <p>Note that uninstalling the app does <strong>not</strong> automatically delete chat messages and statistics already sent — that requires a request to <a href="mailto:newkostenko1@yandex.ru">newkostenko1@yandex.ru</a>.</p>
+            <hr />
+            <h2>8. Children</h2>
+            <p>The app is intended for people <strong>aged 18 and over</strong>: it concerns quitting smoking and contains game mechanics and advertising. We do not knowingly collect data from children. If you believe a child has provided us with data, e-mail <a href="mailto:newkostenko1@yandex.ru">newkostenko1@yandex.ru</a> and we will delete it.</p>
+            <hr />
+            <h2>9. Medical disclaimer</h2>
+            <p>The app is <strong>not a medical device</strong>. It does not diagnose or prescribe treatment. All figures (money saved, avoided nicotine and tar, body recovery) are calculated from averaged scientific and medical data and <strong>do not account for your individual circumstances</strong>. They are informational only and are not a substitute for medical advice, diagnosis or treatment.</p>
+            <p>If you need help quitting smoking, consult a doctor or a specialist service. In an emergency, call your local emergency number.</p>
+            <hr />
+            <h2>10. Changes to this policy</h2>
+            <p>We may update this policy. The new version is published at https://imsiberiandeveloper.github.io/privacy/en/ and in the app; the effective date is shown at the top. We will notify you in the app about material changes. Continuing to use the app after the changes take effect means you accept the new version.</p>
+            <hr />
+            <h2>11. Contact</h2>
+            <ul>
+            <li>Controller: Konstantin Kostenko, correspondence address available on request</li>
+            <li>E-mail: <a href="mailto:newkostenko1@yandex.ru">newkostenko1@yandex.ru</a></li>
+            <li>Response time to requests: up to 30 calendar days</li>
+            </ul>
+            <hr />
+            <p><em>This document is a working draft. Before publishing, have it reviewed by a lawyer, in particular regarding cross-border data transfers and localisation requirements in your jurisdiction.</em></p>
+        </article>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Константин Костенко · Privacy Policy for the “Together” app</p>
+        <p><a href="https://imsiberiandeveloper.github.io/">← Back to home</a></p>
+    </footer>
+
+</body>
+</html>
