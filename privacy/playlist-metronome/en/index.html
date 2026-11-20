@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Privacy Policy — Playlist Metronome</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f6fbfa;
+    --text: #17302f;
+    --muted: #5d7a78;
+    --accent: #00696b;
+    --card: #ffffff;
+    --line: #d9e9e7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #071c1d;
+      --text: #e6f4f2;
+      --muted: #a6c4c1;
+      --accent: #67e8e3;
+      --card: #0d292a;
+      --line: #24494a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 22px 20px 48px;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.62;
+  }
+  main { max-width: 760px; margin: 0 auto; }
+  h1 { font-size: 27px; line-height: 1.25; margin: 0 0 14px; }
+  h2 { font-size: 18px; line-height: 1.35; color: var(--accent); margin: 30px 0 10px; }
+  p { margin: 0 0 12px; }
+  ul { margin: 0 0 14px; padding-left: 22px; }
+  li { margin: 0 0 8px; }
+  a { color: var(--accent); text-decoration: none; border-bottom: 1px solid currentColor; }
+  .meta {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 14px 16px;
+    color: var(--muted);
+    font-size: 14px;
+    margin: 0 0 18px;
+  }
+  .meta strong { color: var(--text); }
+  .note {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--accent);
+    border-radius: 10px;
+    padding: 12px 16px;
+    margin: 16px 0;
+  }
+  footer {
+    margin-top: 34px;
+    padding-top: 16px;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 14px;
+  }
+
+    .site-nav {
+      max-width: 760px;
+      margin: 0 auto 26px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      font-size: 14px;
+    }
+    .site-nav a { color: var(--muted); border-bottom: none; }
+    .site-nav a:hover { color: var(--accent); }
+  </style>
+    <link rel="canonical" href="https://imsiberiandeveloper.github.io/privacy/playlist-metronome/en/">
+    <link rel="alternate" hreflang="ru" href="https://imsiberiandeveloper.github.io/privacy/playlist-metronome/">
+    <link rel="alternate" hreflang="en" href="https://imsiberiandeveloper.github.io/privacy/playlist-metronome/en/">
+    <meta name="robots" content="index, follow">
+</head>
+<body>
+<header class="site-nav"><a href="../">← Back to home</a><a href="../">Русская версия</a></header>
+<main>
+  <h1>Privacy Policy</h1>
+
+  <div class="meta">
+    <strong>App:</strong> Playlist Metronome<br>
+    <strong>Package:</strong> ru.imsibdev.playlistmetronome<br>
+    <strong>Effective date:</strong> November 20, 2026<br>
+    <strong>Version:</strong> 1.0
+  </div>
+
+  <p>This Privacy Policy explains how the Playlist Metronome app (the “App”) handles information. The App is developed by Konstantin Kostenko (the “Developer”, “we”, “us”).</p>
+
+  <div class="note">
+    In short: the App works without registration or an account. Your playlists, songs and settings are stored only on your device and are not sent to the Developer. The App uses the Yandex Mobile Ads SDK to show ads; that SDK may process technical data and advertising identifiers under its own policy.
+  </div>
+
+  <h2>1. About this policy</h2>
+  <p>The App is a tool for musicians: it helps set the tempo, save songs and organise them into playlists. We do not create accounts and do not ask for your name, phone number, e-mail address or other contact details.</p>
+  <p>By using the App, you agree to this Policy. If you do not agree, please do not use the App.</p>
+
+  <h2>2. Data you create</h2>
+  <p>You can create playlists, add songs, set BPM, beats per bar and hits per beat. This data is stored in the App’s private storage on your device (a local Room database) and is not sent to the Developer’s servers.</p>
+  <p>If Android backup is enabled on your device, the operating system may include App data in your Google account backup. That backup is managed by Google, not by the Developer. You can disable it in Android settings.</p>
+
+  <h2>3. Advertising and third-party SDKs</h2>
+  <p>The App displays advertising provided by Yandex Mobile Ads. The Yandex advertising SDK may automatically process:</p>
+  <ul>
+    <li>the device advertising ID (Advertising ID) and other device identifiers;</li>
+    <li>IP address, device details, operating system and App version;</li>
+    <li>ad impression and click information, and technical SDK events;</li>
+    <li>approximate region data, where made available to the ad network.</li>
+  </ul>
+  <p>This data is used to serve ads, limit ad frequency, prevent fraud and measure ad performance. The Developer does not receive your playlists, song names or tempo settings from the advertising SDK.</p>
+  <p>Learn more: <a href="https://yandex.com/legal/confidential/">Yandex Privacy Policy</a>.</p>
+
+  <h2>4. App permissions</h2>
+  <ul>
+    <li><strong>Notifications</strong> — to show a notification with a Stop button while the metronome plays in the background. You can disable this permission in Android settings; audio will keep playing, but you will not be able to stop it from the notification.</li>
+    <li><strong>Internet</strong> — to load advertising.</li>
+    <li><strong>Foreground Service / Media Playback</strong> — to keep the metronome playing when the App is minimised and prevent the system from stopping it.</li>
+  </ul>
+  <p>The App does not request access to the microphone, camera, contacts, location, files, SMS or call history.</p>
+
+  <h2>5. Why data is processed</h2>
+  <ul>
+    <li>to save playlists, songs and tempo settings on your device;</li>
+    <li>to play the metronome and operate the notification;</li>
+    <li>to display advertising and operate the advertising SDK;</li>
+    <li>to prevent abuse and comply with legal requirements.</li>
+  </ul>
+
+  <h2>6. Sharing with third parties</h2>
+  <p>We do not sell your data. Data may be processed by:</p>
+  <ul>
+    <li><strong>Yandex Mobile Ads</strong> — to the extent necessary to serve ads, under Yandex’s policy;</li>
+    <li><strong>Google Play</strong> — when installing, updating and using the App, under Google’s policy;</li>
+    <li>public authorities — where required by law.</li>
+  </ul>
+
+  <h2>7. Retention and deletion</h2>
+  <p>Playlists, songs and settings remain on your device until you delete them in the App, clear the App’s data or uninstall the App. When you uninstall the App, local data is deleted with it (subject to Android backups, if enabled).</p>
+  <p>Data processed by the advertising SDK is retained under Yandex’s policy. You can reset your advertising ID or opt out of personalised advertising in Google settings (Android → Settings → Google → Ads).</p>
+  <p>For access, deletion or clarification requests, e-mail <a href="mailto:newkostenko1@yandex.ru">newkostenko1@yandex.ru</a>. We will respond within a reasonable time and help delete data we can match to your request.</p>
+
+  <h2>8. Children</h2>
+  <p>The App is not intended for, or directed to, children under 13. We do not knowingly collect personal data from children. If you believe a child has provided us with data, e-mail <a href="mailto:newkostenko1@yandex.ru">newkostenko1@yandex.ru</a> and we will take appropriate action.</p>
+
+  <h2>9. Your rights</h2>
+  <p>You can:</p>
+  <ul>
+    <li>view and edit your playlists and songs in the App;</li>
+    <li>delete all local data by clearing the App’s data or uninstalling it;</li>
+    <li>disable notifications and personalised advertising in your device settings;</li>
+    <li>contact us about data processing at the address below.</li>
+  </ul>
+  <p>If you are in a region covered by the GDPR or similar legislation, you also have the right to contact your local data protection authority.</p>
+
+  <h2>10. Changes to this policy</h2>
+  <p>We may update this Policy. The new version is published on this page and in the App with an effective date. By continuing to use the App after changes take effect, you accept the updated Policy.</p>
+
+  <h2>11. Contact</h2>
+  <p>Developer: Konstantin Kostenko<br>
+  E-mail: <a href="mailto:newkostenko1@yandex.ru">newkostenko1@yandex.ru</a><br>
+  GitHub: <a href="https://github.com/ImSiberianDeveloper">github.com/ImSiberianDeveloper</a></p>
+
+  <footer>
+    <p>© 2026 Konstantin Kostenko. Privacy Policy for Playlist Metronome.</p>
+    <p><a href="../">Русская версия</a></p>
+  </footer>
+</main>
+</body>
+</html>
